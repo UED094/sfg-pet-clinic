@@ -5,6 +5,7 @@
     <title>List of Owners</title>
 </head>
 <body>
+<!--/*@thymesVar id="owners" type="com.ued.sfgpetclinic.model.Owner"*/-->
     <h1 th:text="'List of Owners'">List of Owners...</h1>
     <table>
         <thead>
@@ -15,6 +16,7 @@
         </tr>
         </thead>
         <tbody>
+
         <tr th:each="owner : ${owners}">
             <td th:text="${owner?.id}">1</td>
             <td th:text="${owner?.firstName}">Joe</td>
