@@ -1,11 +1,11 @@
-package guru.springframework.sfgpetclinic.controllers;
+package com.ued.sfgpetclinic.controllers;
 
-import guru.springframework.sfgpetclinic.model.Owner;
-import guru.springframework.sfgpetclinic.model.Pet;
-import guru.springframework.sfgpetclinic.model.PetType;
-import guru.springframework.sfgpetclinic.services.OwnerService;
-import guru.springframework.sfgpetclinic.services.PetService;
-import guru.springframework.sfgpetclinic.services.PetTypeService;
+import com.ued.sfgpetclinic.model.Owner;
+import com.ued.sfgpetclinic.model.Pet;
+import com.ued.sfgpetclinic.model.PetType;
+import com.ued.sfgpetclinic.services.OwnerService;
+import com.ued.sfgpetclinic.services.PetService;
+import com.ued.sfgpetclinic.services.PetTypeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
